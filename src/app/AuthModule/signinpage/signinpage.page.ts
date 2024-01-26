@@ -18,4 +18,8 @@ export class SigninpagePage implements OnInit {
   forgetPass() {
     this.route.navigateByUrl('/forgetpasspage');
   }
+
+  login() {
+    this.route.navigateByUrl('/home');
+  }
 }
