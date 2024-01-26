@@ -1,0 +1,62 @@
+<ion-content [fullscreen]="true" [ngSwitch]="active">
+  <ion-grid *ngSwitchCase="1">
+    <ion-row>
+      <ion-col size="9" offset="1.5">
+        <img src="assets/Saly-22.png" />
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="9" offset="1.5" class="heading">
+        <p class="main">The Simple Way to</p>
+        <p class="sub">find the best! 👌</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="description">
+        <p>
+          Aenean eu lacinia ligula. Quisque eu risus erat. Aenean placerat
+          sollicitudin lectus.
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="bottomline">
+      <ion-col size="4"> </ion-col>
+      <ion-col size="2"> <hr width="100%" [color]="blue" /> </ion-col>
+      <ion-col size="0.5"></ion-col>
+      <ion-col size="2"> <hr width="100%" [color]="white" /></ion-col>
+      <ion-col size="3.5" class="btn" (click)="next()"> <p>Next</p></ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid *ngSwitchCase="2">
+    <ion-row>
+      <ion-col size="9" offset="1.5">
+        <img src="assets/Saly-27.png" />
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="9" offset="1.5" class="heading">
+        <p class="main">The Best Design</p>
+        <p class="sub">Strategy! ✍️</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="description">
+        <p>
+          Aenean eu lacinia ligula. Quisque eu risus erat. Aenean placerat
+          sollicitudin lectus.
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="bottomline">
+      <ion-col size="4"> </ion-col>
+      <ion-col size="2"> <hr width="100%" [color]="white" /> </ion-col>
+      <ion-col size="0.5"></ion-col>
+      <ion-col size="2"> <hr width="100%" [color]="blue" /></ion-col>
+      <ion-col size="3.5" class="btn" (click)="toApp()"> <p>Next</p></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

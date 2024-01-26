@@ -1,0 +1,44 @@
+ion-content {
+  --background: #3b4054 !important;
+}
+
+img {
+  margin-top: 15%;
+  margin-bottom: 23%;
+}
+
+.heading {
+  text-align: center;
+  font-size: x-large;
+  color: white;
+
+  .main {
+    font-weight: 700;
+  }
+
+  .sub {
+    font-weight: 550;
+    color: #e0e5ec;
+    margin-top: 0px;
+  }
+}
+
+.description {
+  text-align: center;
+  font-size: medium;
+  color: #c8d2de;
+}
+
+.bottomline {
+  margin-top: 20%;
+
+  .btn {
+    text-align: end;
+    padding-right: 5%;
+    color: #c8d2de;
+
+    p {
+      margin: 0px;
+    }
+  }
+}

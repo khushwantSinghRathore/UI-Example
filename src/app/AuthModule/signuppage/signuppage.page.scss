@@ -1,0 +1,70 @@
+.logo {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.heading {
+  text-align: center;
+
+  .main {
+    font-size: x-large;
+    font-weight: 700;
+    color: #2a4eca;
+  }
+
+  .sub {
+    color: #61677d;
+  }
+}
+
+.socialbtn {
+  text-align: center;
+  background-color: #f5f9fe;
+  border-radius: 14px;
+  padding: 10%;
+  span {
+    margin-left: 10%;
+    font-size: larger;
+    vertical-align: super;
+  }
+}
+
+.or {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+ion-input {
+  --background: #f5f9fe;
+  --padding-start: 5% !important;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  --border-radius: 14px;
+  --padding-top: 5% !important;
+  --padding-bottom: 5% !important;
+}
+
+.privacy {
+  p {
+    display: inline;
+    margin: 3%;
+    vertical-align: super;
+
+    span {
+      color: #3461fd;
+    }
+  }
+}
+
+.btn {
+  margin-top: 5%;
+}
+
+.login {
+  p {
+    color: #3b4054;
+  }
+  span {
+    color: #3461fd;
+  }
+}
