@@ -1,0 +1,37 @@
+hr {
+  height: 6px;
+  border-radius: 14px;
+}
+
+.slide {
+  margin-top: 5%;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.heading {
+  text-align: center;
+
+  .main {
+    font-size: xx-large;
+    font-weight: 700;
+    color: #2a4eca;
+  }
+
+  .sub {
+    color: #61677d;
+  }
+}
+
+ion-input {
+  --background: #f5f9fe;
+  --padding-start: 5% !important;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  --border-radius: 14px;
+  --padding-top: 5% !important;
+  --padding-bottom: 5% !important;
+}

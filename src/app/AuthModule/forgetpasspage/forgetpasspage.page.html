@@ -1,13 +1,48 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>forgetpasspage</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">forgetpasspage</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button fill="clear" color="dark">
+          <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="slide">
+      <ion-col> </ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="blue" /> </ion-col>
+      <ion-col size="0.5"></ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="white" /></ion-col>
+      <ion-col size="0.5"></ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="white" /></ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row class="logo">
+      <ion-col size="8" offset="2">
+        <img src="assets/Wave3.png" />
+      </ion-col>
+    </ion-row>
+    <ion-row class="heading">
+      <ion-col>
+        <p class="main">Forget Password</p>
+        <p class="sub">
+          It was popularised in the 1960s with the release of Letraset
+          sheetscontaining Lorem Ipsum.
+        </p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item lines="none">
+          <ion-input placeholder="Email/Phone Number" value=""></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="11" offset="0.5">
+        <ion-button expand="block" size="large" color="tertiary"
+          >Continue</ion-button
+        >
+      </ion-col>
+    </ion-row>
+  </ion-grid></ion-content
+>

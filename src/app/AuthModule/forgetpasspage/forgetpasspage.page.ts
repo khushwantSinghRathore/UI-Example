@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./forgetpasspage.page.scss'],
 })
 export class ForgetpasspagePage implements OnInit {
+  white = '#D6DFFF';
+  blue = '#5D81FD';
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
