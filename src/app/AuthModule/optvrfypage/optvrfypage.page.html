@@ -1,13 +1,69 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>optvrfypage</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">optvrfypage</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button fill="clear" color="dark" (click)="back()">
+          <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="slide">
+      <ion-col> </ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="white" /> </ion-col>
+      <ion-col size="0.5"></ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="blue" /></ion-col>
+      <ion-col size="0.5"></ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="white" /></ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row class="logo">
+      <ion-col size="8" offset="2">
+        <img src="assets/Wave3.png" />
+      </ion-col>
+    </ion-row>
+    <ion-row class="heading">
+      <ion-col offset="0.5">
+        <p class="main">Enter OTP</p>
+        <p class="sub">
+          Enter the OTP code we just sent you on your registered Email/Phone
+          number
+        </p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="otprow">
+      <ion-col size="0.5"></ion-col>
+      <ion-col>
+        <ion-input placeholder="" value=""></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input placeholder="" value=""></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input placeholder="" value=""></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input placeholder="" value=""></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input placeholder="" value=""></ion-input>
+      </ion-col>
+      <ion-col size="0.5"></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="11" offset="0.5">
+        <ion-button
+          expand="block"
+          size="large"
+          color="tertiary"
+          (click)="reset()"
+          >Reset Password</ion-button
+        >
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="resend" offset="0.5">
+        <p>Didn’t get OTP? <span> Resend OTP </span></p></ion-col
+      >
+    </ion-row>
+  </ion-grid>
 </ion-content>

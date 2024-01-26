@@ -34,19 +34,8 @@ ion-input {
   --border-radius: 14px;
   --padding-top: 5% !important;
   --padding-bottom: 5% !important;
-  height: 70px;
 }
 
-.otprow {
+ion-button {
   margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.resend {
-  p {
-    color: #3b4054;
-  }
-  span {
-    color: #3461fd;
-  }
 }

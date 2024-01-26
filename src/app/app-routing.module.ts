@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'welcomescreenpage',
     loadChildren: () => import('./WelcomeModule/welcomescreenpage/welcomescreenpage.module').then( m => m.WelcomescreenpagePageModule)
   },
+  {
+    path: 'resetpasspage',
+    loadChildren: () => import('./AuthModule/resetpasspage/resetpasspage.module').then( m => m.ResetpasspagePageModule)
+  },
 ];
 
 @NgModule({

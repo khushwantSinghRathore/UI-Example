@@ -9,21 +9,21 @@
     </ion-row>
     <ion-row class="slide">
       <ion-col> </ion-col>
-      <ion-col size="1.5"> <hr width="100%" [color]="blue" /> </ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="white" /> </ion-col>
       <ion-col size="0.5"></ion-col>
       <ion-col size="1.5"> <hr width="100%" [color]="white" /></ion-col>
       <ion-col size="0.5"></ion-col>
-      <ion-col size="1.5"> <hr width="100%" [color]="white" /></ion-col>
+      <ion-col size="1.5"> <hr width="100%" [color]="blue" /></ion-col>
       <ion-col></ion-col>
     </ion-row>
     <ion-row class="logo">
       <ion-col size="8" offset="2">
-        <img src="assets/Wave3.png" />
+        <img src="assets/Wave4.png" />
       </ion-col>
     </ion-row>
     <ion-row class="heading">
       <ion-col>
-        <p class="main">Forget Password</p>
+        <p class="main">Reset Password</p>
         <p class="sub">
           It was popularised in the 1960s with the release of Letraset
           sheetscontaining Lorem Ipsum.
@@ -33,7 +33,24 @@
     <ion-row>
       <ion-col>
         <ion-item lines="none">
-          <ion-input placeholder="Email/Phone Number" value=""></ion-input>
+          <ion-input
+            placeholder="Password"
+            type="password"
+            value=""
+          ></ion-input>
+          <ion-button fill="clear" slot="end" aria-label="Show/hide">
+            <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+          </ion-button>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-input
+            placeholder="Password"
+            type="password"
+            value=""
+          ></ion-input>
+          <ion-button fill="clear" slot="end" aria-label="Show/hide">
+            <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+          </ion-button>
         </ion-item>
       </ion-col>
     </ion-row>
@@ -43,8 +60,10 @@
           expand="block"
           size="large"
           color="tertiary"
-          (click)="contine()"
-          >Continue</ion-button
+          (click)="submit()"
+        >
+          <ion-icon slot="start" name="reload-outline"></ion-icon>
+          Submitting...</ion-button
         >
       </ion-col>
     </ion-row>

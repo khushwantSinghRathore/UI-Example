@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-forgetpasspage',
@@ -8,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class ForgetpasspagePage implements OnInit {
   white = '#D6DFFF';
   blue = '#5D81FD';
-  constructor() {}
+  constructor(private route: Router) {}
 
   ngOnInit() {}
+
+  back() {
+    this.route.navigateByUrl('/signinpage');
+  }
+
+  contine() {
+    this.route.navigateByUrl('/optvrfypage');
+  }
 }
